@@ -52,6 +52,7 @@ public class SwitchDemo {
             break;
             default:
             System.out.println("Invalid Entry");
-        }
+            break;
         }
     }
+}
