@@ -29,7 +29,7 @@
  *
  * Concepts used: Classes, Objects, Instance Variables, Methods
  */
-class Student{
+class Student2{
     String name ;
     int rollNo;
     double cgpa;
@@ -45,12 +45,12 @@ class Student{
 public class StudentDemo{
     public static void main(String[] args) {
         System.out.println("--- Student Details ---");
-        Student s1 = new Student();
+        Student2 s1 = new Student2();
         s1.name="Jaans Pravin";
         s1.rollNo=50;
         s1.cgpa=8.5;
 
-        Student s2 = new Student();
+        Student2 s2 = new Student2();
         s2.name="Sung Jinwoo";
         s2.rollNo=51;
         s2.cgpa=8.49;
